@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit872aedd206de905d9c70e2db7c34fd61
+class ComposerStaticInit3de4f0a53e402ce398426649894cb619
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
@@ -21,7 +21,6 @@ class ComposerStaticInit872aedd206de905d9c70e2db7c34fd61
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
         '0d8253363903f0ac7b0978dcde4e28a0' => __DIR__ . '/..' . '/beyondcode/laravel-dump-server/helpers.php',
-        '1fb55e36115b1d6c045a6cfcd459ab66' => __DIR__ . '/..' . '/kevupton/laravel-json-response/src/Kevupton/LaravelJsonResponse/Helpers/helpers.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -96,10 +95,6 @@ class ComposerStaticInit872aedd206de905d9c70e2db7c34fd61
         array (
             'League\\Flysystem\\' => 17,
             'Laravel\\Tinker\\' => 15,
-        ),
-        'K' => 
-        array (
-            'Kevupton\\LaravelJsonResponse\\' => 29,
         ),
         'J' => 
         array (
@@ -301,10 +296,6 @@ class ComposerStaticInit872aedd206de905d9c70e2db7c34fd61
         array (
             0 => __DIR__ . '/..' . '/laravel/tinker/src',
         ),
-        'Kevupton\\LaravelJsonResponse\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/kevupton/laravel-json-response/src/Kevupton/LaravelJsonResponse',
-        ),
         'JakubOnderka\\PhpConsoleHighlighter\\' => 
         array (
             0 => __DIR__ . '/..' . '/jakub-onderka/php-console-highlighter/src',
@@ -391,18 +382,15 @@ class ComposerStaticInit872aedd206de905d9c70e2db7c34fd61
     public static $classMap = array (
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
-        'App\\Http\\Controllers\\ApiController' => __DIR__ . '/../..' . '/app/Http/Controllers/ApiController.php',
         'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
         'App\\Http\\Controllers\\Auth\\LoginController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/LoginController.php',
         'App\\Http\\Controllers\\Auth\\RegisterController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/RegisterController.php',
         'App\\Http\\Controllers\\Auth\\ResetPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ResetPasswordController.php',
         'App\\Http\\Controllers\\Auth\\VerificationController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/VerificationController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
-        'App\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
         'App\\Http\\Middleware\\CheckForMaintenanceMode' => __DIR__ . '/../..' . '/app/Http/Middleware/CheckForMaintenanceMode.php',
-        'App\\Http\\Middleware\\Cors' => __DIR__ . '/../..' . '/app/Http/Middleware/Cors.php',
         'App\\Http\\Middleware\\EncryptCookies' => __DIR__ . '/../..' . '/app/Http/Middleware/EncryptCookies.php',
         'App\\Http\\Middleware\\RedirectIfAuthenticated' => __DIR__ . '/../..' . '/app/Http/Middleware/RedirectIfAuthenticated.php',
         'App\\Http\\Middleware\\TrimStrings' => __DIR__ . '/../..' . '/app/Http/Middleware/TrimStrings.php',
@@ -1922,13 +1910,6 @@ class ComposerStaticInit872aedd206de905d9c70e2db7c34fd61
         'JakubOnderka\\PhpConsoleColor\\InvalidStyleException' => __DIR__ . '/..' . '/jakub-onderka/php-console-color/src/InvalidStyleException.php',
         'JakubOnderka\\PhpConsoleHighlighter\\Highlighter' => __DIR__ . '/..' . '/jakub-onderka/php-console-highlighter/src/Highlighter.php',
         'JsonException' => __DIR__ . '/..' . '/symfony/polyfill-php73/Resources/stubs/JsonException.php',
-        'Kevupton\\LaravelJsonResponse\\Exceptions\\ExceptionHandler' => __DIR__ . '/..' . '/kevupton/laravel-json-response/src/Kevupton/LaravelJsonResponse/Exceptions/ExceptionHandler.php',
-        'Kevupton\\LaravelJsonResponse\\Exceptions\\JsonResponseErrorException' => __DIR__ . '/..' . '/kevupton/laravel-json-response/src/Kevupton/LaravelJsonResponse/Exceptions/JsonResponseErrorException.php',
-        'Kevupton\\LaravelJsonResponse\\JsonResponse' => __DIR__ . '/..' . '/kevupton/laravel-json-response/src/Kevupton/LaravelJsonResponse/JsonResponse.php',
-        'Kevupton\\LaravelJsonResponse\\Middleware\\CatchAllExceptions' => __DIR__ . '/..' . '/kevupton/laravel-json-response/src/Kevupton/LaravelJsonResponse/Middleware/CatchAllExceptions.php',
-        'Kevupton\\LaravelJsonResponse\\Middleware\\OutputJsonResponse' => __DIR__ . '/..' . '/kevupton/laravel-json-response/src/Kevupton/LaravelJsonResponse/Middleware/OutputJsonResponse.php',
-        'Kevupton\\LaravelJsonResponse\\Providers\\LaravelJsonResponseProvider' => __DIR__ . '/..' . '/kevupton/laravel-json-response/src/Kevupton/LaravelJsonResponse/Providers/LaravelJsonResponseProvider.php',
-        'Kevupton\\LaravelJsonResponse\\Traits\\HasJson' => __DIR__ . '/..' . '/kevupton/laravel-json-response/src/Kevupton/LaravelJsonResponse/Traits/HasJson.php',
         'Laravel\\Tinker\\ClassAliasAutoloader' => __DIR__ . '/..' . '/laravel/tinker/src/ClassAliasAutoloader.php',
         'Laravel\\Tinker\\Console\\TinkerCommand' => __DIR__ . '/..' . '/laravel/tinker/src/Console/TinkerCommand.php',
         'Laravel\\Tinker\\TinkerCaster' => __DIR__ . '/..' . '/laravel/tinker/src/TinkerCaster.php',
@@ -2018,8 +1999,10 @@ class ComposerStaticInit872aedd206de905d9c70e2db7c34fd61
         'Mockery\\Generator\\MockConfiguration' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Generator/MockConfiguration.php',
         'Mockery\\Generator\\MockConfigurationBuilder' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Generator/MockConfigurationBuilder.php',
         'Mockery\\Generator\\MockDefinition' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Generator/MockDefinition.php',
+        'Mockery\\Generator\\MockNameBuilder' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Generator/MockNameBuilder.php',
         'Mockery\\Generator\\Parameter' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Generator/Parameter.php',
         'Mockery\\Generator\\StringManipulationGenerator' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Generator/StringManipulationGenerator.php',
+        'Mockery\\Generator\\StringManipulation\\Pass\\AvoidMethodClashPass' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Generator/StringManipulation/Pass/AvoidMethodClashPass.php',
         'Mockery\\Generator\\StringManipulation\\Pass\\CallTypeHintPass' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Generator/StringManipulation/Pass/CallTypeHintPass.php',
         'Mockery\\Generator\\StringManipulation\\Pass\\ClassNamePass' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Generator/StringManipulation/Pass/ClassNamePass.php',
         'Mockery\\Generator\\StringManipulation\\Pass\\ClassPass' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Generator/StringManipulation/Pass/ClassPass.php',
@@ -2037,6 +2020,7 @@ class ComposerStaticInit872aedd206de905d9c70e2db7c34fd61
         'Mockery\\Generator\\UndefinedTargetClass' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Generator/UndefinedTargetClass.php',
         'Mockery\\HigherOrderMessage' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/HigherOrderMessage.php',
         'Mockery\\Instantiator' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Instantiator.php',
+        'Mockery\\LegacyMockInterface' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/LegacyMockInterface.php',
         'Mockery\\Loader\\EvalLoader' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Loader/EvalLoader.php',
         'Mockery\\Loader\\Loader' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Loader/Loader.php',
         'Mockery\\Loader\\RequireLoader' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Loader/RequireLoader.php',
@@ -4032,10 +4016,10 @@ class ComposerStaticInit872aedd206de905d9c70e2db7c34fd61
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit872aedd206de905d9c70e2db7c34fd61::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit872aedd206de905d9c70e2db7c34fd61::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit872aedd206de905d9c70e2db7c34fd61::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit872aedd206de905d9c70e2db7c34fd61::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit3de4f0a53e402ce398426649894cb619::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit3de4f0a53e402ce398426649894cb619::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit3de4f0a53e402ce398426649894cb619::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit3de4f0a53e402ce398426649894cb619::$classMap;
 
         }, null, ClassLoader::class);
     }

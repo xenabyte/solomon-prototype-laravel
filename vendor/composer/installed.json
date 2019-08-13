@@ -508,17 +508,17 @@
     },
     {
         "name": "filp/whoops",
-        "version": "2.4.1",
-        "version_normalized": "2.4.1.0",
+        "version": "2.5.0",
+        "version_normalized": "2.5.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/filp/whoops.git",
-            "reference": "6fb502c23885701a991b0bba974b1a8eb6673577"
+            "reference": "cde50e6720a39fdacb240159d3eea6865d51fd96"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/filp/whoops/zipball/6fb502c23885701a991b0bba974b1a8eb6673577",
-            "reference": "6fb502c23885701a991b0bba974b1a8eb6673577",
+            "url": "https://api.github.com/repos/filp/whoops/zipball/cde50e6720a39fdacb240159d3eea6865d51fd96",
+            "reference": "cde50e6720a39fdacb240159d3eea6865d51fd96",
             "shasum": ""
         },
         "require": {
@@ -534,7 +534,7 @@
             "symfony/var-dumper": "Pretty print complex values better with var-dumper available",
             "whoops/soap": "Formats errors as SOAP responses"
         },
-        "time": "2019-07-04T09:00:00+00:00",
+        "time": "2019-08-07T09:00:00+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -764,69 +764,18 @@
         "description": "Highlight PHP code in terminal"
     },
     {
-        "name": "kevupton/laravel-json-response",
-        "version": "v0.0.11",
-        "version_normalized": "0.0.11.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/kevupton/laravel-json-response.git",
-            "reference": "6534d97d6e1723dc74c0218e1748307e95f160a7"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/kevupton/laravel-json-response/zipball/6534d97d6e1723dc74c0218e1748307e95f160a7",
-            "reference": "6534d97d6e1723dc74c0218e1748307e95f160a7",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.4"
-        },
-        "require-dev": {
-            "barryvdh/laravel-ide-helper": "^2.4",
-            "laravel/laravel": "5.5.*",
-            "laravel/lumen-framework": "5.5.*"
-        },
-        "time": "2018-12-09T02:13:55+00:00",
-        "type": "extension",
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Kevupton\\LaravelJsonResponse\\": "src/Kevupton/LaravelJsonResponse/"
-            },
-            "files": [
-                "src/Kevupton/LaravelJsonResponse/Helpers/helpers.php"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Kevin Upton",
-                "email": "uptonkg@gmail.com"
-            }
-        ],
-        "description": "Easy Json responses for laravel",
-        "keywords": [
-            "eloquent",
-            "json",
-            "laravel"
-        ]
-    },
-    {
         "name": "laravel/framework",
-        "version": "v5.8.30",
-        "version_normalized": "5.8.30.0",
+        "version": "v5.8.31",
+        "version_normalized": "5.8.31.0",
         "source": {
             "type": "git",
             "url": "https://github.com/laravel/framework.git",
-            "reference": "7ccf0cf63931a8d8391aed90e6fc011381ea6838"
+            "reference": "24cc1786bd55876fa52380306354772355345efd"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/laravel/framework/zipball/7ccf0cf63931a8d8391aed90e6fc011381ea6838",
-            "reference": "7ccf0cf63931a8d8391aed90e6fc011381ea6838",
+            "url": "https://api.github.com/repos/laravel/framework/zipball/24cc1786bd55876fa52380306354772355345efd",
+            "reference": "24cc1786bd55876fa52380306354772355345efd",
             "shasum": ""
         },
         "require": {
@@ -929,7 +878,7 @@
             "symfony/psr-http-message-bridge": "Required to use PSR-7 bridging features (^1.1).",
             "wildbit/swiftmailer-postmark": "Required to use Postmark mail driver (^3.0)."
         },
-        "time": "2019-07-30T14:08:47+00:00",
+        "time": "2019-08-06T15:09:02+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1116,17 +1065,17 @@
     },
     {
         "name": "mockery/mockery",
-        "version": "1.2.2",
-        "version_normalized": "1.2.2.0",
+        "version": "1.2.3",
+        "version_normalized": "1.2.3.0",
         "source": {
             "type": "git",
             "url": "https://github.com/mockery/mockery.git",
-            "reference": "0eb0b48c3f07b3b89f5169ce005b7d05b18cf1d2"
+            "reference": "4eff936d83eb809bde2c57a3cea0ee9643769031"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/mockery/mockery/zipball/0eb0b48c3f07b3b89f5169ce005b7d05b18cf1d2",
-            "reference": "0eb0b48c3f07b3b89f5169ce005b7d05b18cf1d2",
+            "url": "https://api.github.com/repos/mockery/mockery/zipball/4eff936d83eb809bde2c57a3cea0ee9643769031",
+            "reference": "4eff936d83eb809bde2c57a3cea0ee9643769031",
             "shasum": ""
         },
         "require": {
@@ -1137,7 +1086,7 @@
         "require-dev": {
             "phpunit/phpunit": "~5.7.10|~6.5|~7.0|~8.0"
         },
-        "time": "2019-02-13T09:37:52+00:00",
+        "time": "2019-08-07T15:01:07+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1313,17 +1262,17 @@
     },
     {
         "name": "nesbot/carbon",
-        "version": "2.22.0",
-        "version_normalized": "2.22.0.0",
+        "version": "2.22.3",
+        "version_normalized": "2.22.3.0",
         "source": {
             "type": "git",
             "url": "https://github.com/briannesbitt/Carbon.git",
-            "reference": "1a0e48b5f656065ba3c265b058b25d36c2162a5e"
+            "reference": "738fbd8d80b2c5e158fda76c29c2de432fcc6f7e"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/1a0e48b5f656065ba3c265b058b25d36c2162a5e",
-            "reference": "1a0e48b5f656065ba3c265b058b25d36c2162a5e",
+            "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/738fbd8d80b2c5e158fda76c29c2de432fcc6f7e",
+            "reference": "738fbd8d80b2c5e158fda76c29c2de432fcc6f7e",
             "shasum": ""
         },
         "require": {
@@ -1339,7 +1288,7 @@
             "phpunit/phpunit": "^7.5 || ^8.0",
             "squizlabs/php_codesniffer": "^3.4"
         },
-        "time": "2019-07-28T09:02:12+00:00",
+        "time": "2019-08-07T12:36:44+00:00",
         "bin": [
             "bin/carbon"
         ],
@@ -4736,8 +4685,8 @@
         "authors": [
             {
                 "name": "Tijs Verkoyen",
-                "email": "css_to_inline_styles@verkoyen.eu",
-                "role": "Developer"
+                "role": "Developer",
+                "email": "css_to_inline_styles@verkoyen.eu"
             }
         ],
         "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",

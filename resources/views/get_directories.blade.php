@@ -132,7 +132,7 @@
                                     <img src="images/business_images/{{ $get_directory->image }}" alt="" class="img-fluid img-thumbnail thumb-lg">
                                 </div>
                                 <h5 class="text-primary font-18 mt-0 mb-1">{{ $get_directory->business_name  }}</h5>
-                                <p class="font-12 mb-2"><i class="ti-mobile"></i> {{ $get_directory->office_contact }}</p>
+                                <p class="font-12 mb-2"><i class="ti-mobile"></i><strong>Tel.</strong> {{ $get_directory->office_contact }}</p>
                                 <p class="mb-4"><i class="ti-map"></i> {{ $get_directory->office_address }}</p>
                                 <div class="clearfix"></div>
 
